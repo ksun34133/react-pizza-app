@@ -1,0 +1,52 @@
+.MainContainer {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: center;
+  justify-content: space-between;
+}
+.PizzaList {
+  display: flex;
+  padding: 5px;
+  width: 70%;
+  border: 1px solid #ccc;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.PizzaCart {
+  display: flex;
+  padding: 5px;
+  width: 26%;
+  border: 1px solid #ccc;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.clearfix {
+  clear: both;
+}
+
+.CartItemCounter {
+  border: 1px solid #ccc;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 13px;
+  margin: 5px auto;
+}
+.CartItemCount {
+  width: 40%;
+}
+.CartItemMinus {
+  border-right: 1px solid #ccc;
+  padding-right: 5px;
+  cursor: pointer;
+  width: 30%;
+}
+.CartItemPlus {
+  border-left: 1px solid #ccc;
+  padding-left: 5px;
+  cursor: pointer;
+  width: 30%;
+}

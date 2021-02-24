@@ -1,0 +1,23 @@
+.PizzaItem {
+  display: flex;
+  padding: 10px 0;
+  border: 1px solid #ccc;
+  max-width: 32%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  justify-content: center;
+}
+
+.PizzaItem .Itemdesc {
+  font-size: 13px;
+  margin-bottom: 10px;
+}
+
+.PizzaItem .Itemtitle,
+.PizzaItem .Itemprice {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}

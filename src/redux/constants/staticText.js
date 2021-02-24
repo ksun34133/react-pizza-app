@@ -1,0 +1,11 @@
+export const TEXT_NO = "No";
+export const TEXT_YES = "Yes";
+export const TEXT_TITLE = "Title";
+export const TEXT_DELETE = "Delete";
+export const TEXT_STATUS = "Status";
+export const TEXT_ACTIONS = "Actions";
+export const ADD_TODO_TEXT = "Add Todo";
+export const TEXT_COMPLETE = "Mark Complete";
+export const NO_TODO_FOUND = "No todo found!!";
+export const TEXT_TODOS_LIST = "Todos List";
+export const ENTER_TODO_TITLE = "Please enter todo title";

@@ -1,0 +1,43 @@
+.CartItems {
+  display: flex;
+  /* align-items: center;
+  justify-content: space-between; */
+  flex-direction: column;
+  margin-bottom: 20px;
+  max-height: 450px;
+  overflow-y: auto;
+}
+.CartItem {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #ccc;
+  padding-bottom: 10px;
+}
+.CartItemTitle {
+  font-size: 13px;
+  font-weight: bold;
+}
+.CartItemDesc {
+  font-size: 13px;
+}
+.CartItemPrice {
+  font-size: 14px;
+  font-weight: bold;
+}
+.CartItemsTotal {
+  background: lightcyan;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-direction: column;
+}
+.CartItemsTotalPrice {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.ItemSizeCrust select {
+  margin-bottom: 5px;
+}
